@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KSHQ</title>
+<meta name="robots" content="noindex">
+<meta name="apple-mobile-web-app-title" content="KSHQ">
+<meta name="theme-color" content="#E6E3DE">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#E6E3DE;font:600 16px system-ui,sans-serif;color:#0D0D0D}a{color:#0D0D0D}</style>
+</head>
+<body>
+<a id="go" href="https://claude.ai/artifact/2FFoZpzkT7fqCjXDe8eTW6">Open KSHQ</a>
+<script>
+// Go straight to KSHQ unless this is the first visit to set up the home screen icon.
+if (!/[?&]setup/.test(location.search)) location.replace(document.getElementById('go').href);
+</script>
+</body>
+</html>
